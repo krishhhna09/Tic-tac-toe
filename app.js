@@ -74,7 +74,7 @@ const enableBoxes = () => {
 
 //function to reset the game and is calles in resetbtn
 const resetgame = () => {
-    turnO = true;
+    turnX = true;
     enableBoxes();
     msgContainer.classList.add("hide");
 }
